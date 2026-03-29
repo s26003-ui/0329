@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>세글자</title>
+    <style>
+        body{
+            width: 600px;
+            margin: 0 auto;
+        }
+
+        header{
+            background-color: white;
+            texxt-align: center;
+            padding: 20px;
+        }
+
+        section{
+            background-color: skyblue;
+            padding: 20px;
+        }
+
+        footer{
+            background-color: yellow;
+            padding: 20px;
+        }
+
+        img{
+            width: 600px;
+        }
+
+        textarea{
+            width: 200px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>명함 신청 페이지</h1>
+    </header>
+
+    <section>
+        <form>
+            <p>1. 학년:
+                <select name="grade">
+                    <option value="1">1학년</option>
+                    <option value="2">2학년</option>
+                    <option value="3">3학년</option>
+                </select>
+            </p>
+
+            <p>2. 반:
+            <select name="class">
+                <option value="1">1반</option>
+                <option value="2">2반</option>
+                <option value="3">3반</option>
+                <option value="4">4반</option>
+            </select>
+        </p>
+
+        <p>3. 번호:
+            <input type="text" name="number">
+            </p>
+
+        <p>4. 이름:
+            <input type="text" name="name">
+
+            </p>
+
+            <p>5. 원하는 시안 번호 선택</p>
+            <img src="https://lh7-rt.googleusercontent.com/formsz/AN7BsVCherQ6yMUjmXW0gCRKc1nZuHfLQV0kwh2n64XaO7WTbSKZLBxS2T-1ne4VtoAT8k6LIcmieNu_M9Mf6iw7wukTLGHW0y3pX21-pIelI0Vv2llcuQYizn-Q3LHjM5uVBhqVYeuuCXrvyjAVyvy2kf5QGYvTdBhMJCVx?key=zXC0opYBWS7IVmphVU1lkQ">
+
+            <p>
+                <input type="radio" name="design" value="1">1안
+                <input type="radio" name="design" value="2">2안
+                <input type="radio" name="design" value="3">3안
+                <input type="radio" name="design" value="4">4안
+            </p>
+            <p>6. 넣고 싶은 항목 선택</p>
+            <p>
+                <input type="checkbox" name="info" value="이름">이름
+                <input type="checkbox" name="info" value="이메일">이메일
+                <input type="checkbox" name="info" value="전화번호">전화번호
+                <input type="checkbox" name="info" value="관심분야">관심분야
+            </p>
+
+            <p>7. 기타 건의사항</p>
+            <textarea rows="10" cols="20"></textarea>
+            <br><br>
+
+            <input type="submit" value="전송하기">
+            <button type="reset">초기화하기</button>
+        </form>
+    </selection>
+
+    <footer>
+        <h2>QnA</h2>
+        <details>
+            <summary>언제까지 내나요?</summary>
+            <p>기한 내 제출합니다.</p>
+        </details>
+
+        <details>
+            <summary>늦게 내면 어떻게 되나요?</summary>
+            <p>감점될 수 있습니다.</p>
+        </details>
+    </footer>
+
+    </body>
+    </html>
